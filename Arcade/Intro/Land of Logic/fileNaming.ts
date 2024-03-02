@@ -19,7 +19,3 @@ function fileNaming(names: string[]): string[] {
 
   return files;
 }
-
-let names = ["doc", "doc", "image", "doc(1)", "doc"];
-
-console.log(fileNaming(names));
