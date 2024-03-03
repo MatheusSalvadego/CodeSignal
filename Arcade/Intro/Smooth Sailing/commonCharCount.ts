@@ -13,7 +13,7 @@ function commonCharacterCount(s1: string, s2: string): number {
 }
 
 function getFrequencyMap(str: string) {
-  const freqMap = {};
+  const freqMap: { [key: string]: number } = {};
   for (const char of str) {
     if (!freqMap[char]) {
       freqMap[char] = 0;
